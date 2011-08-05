@@ -42,7 +42,7 @@ void main5(int argv, char* argc){
 
 	colorization(width,height,grayImg,markedImg,isMarked,result);
 
-	float *grayImg1[3];
+	float *grayImg1[3]; 
 	grayImg1[0] = new float[size];
 	grayImg1[1] = new float[size];
 	grayImg1[2] = new float[size];
